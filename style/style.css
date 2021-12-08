@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #051D3B;
+}
+
+/* Header */
+.menu{
+    display: flex;
+    align-content: space-between;
+    font-family: Arial;
+    padding: 15px;
+}
+
+.menu .logo-alura{
+    color: #FFFFFF;
+    padding: 4px;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+.menu .logo-dev{
+    background-color: #FFFFFF;
+    padding: 4px;
+    color: #051D3B;
+    border-radius: 4px;
+    text-decoration: none;
+}
