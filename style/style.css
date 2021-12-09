@@ -5,36 +5,43 @@
 
 body{
     background: #051D3B;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Header */
-.menu{
+/* Header*/
+.cabeçalho-menu{
     display: flex;
-    align-content: space-between;
-    font-family: Arial;
+    justify-content: space-between;
+    align-items: center;
     padding: 15px;
 }
-
-.menu .logo-alura{
-    color: #FFFFFF;
-    padding: 4px;
-    padding-right: 5px;
-    text-decoration: none;
+.cabeçalho-menu .logo-alura{
+    width: 150px;
 }
 
-.menu .logo-dev{
-    background-color: #FFFFFF;
-    padding: 4px;
-    color: #051D3B;
-    border-radius: 4px;
-    text-decoration: none;
-}
-
-.barra-de-pesquisa{
+.cabeçalho-menu .barra-de-pesquisa{
     color: gray;
     background: #FFFFFF29;
     border: none;
     border-radius: 8px;
     width: 752px;
     height: 56px;
+    padding-left: 10px;
+}
+
+.cabeçalho-menu .usuario{
+    display: flex;
+    align-items: center;
+}
+
+.cabeçalho-menu .foto-usuario{
+    border-radius: 50px;
+    Width: 32px;
+    Height: 32px;
+}
+
+.cabeçalho-menu .nome-usuario{
+    color: #FFFFFF;
+    padding-left: 8px;
+    text-decoration: none;
 }
