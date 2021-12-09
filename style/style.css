@@ -29,3 +29,12 @@ body{
     border-radius: 4px;
     text-decoration: none;
 }
+
+.barra-de-pesquisa{
+    color: gray;
+    background: #FFFFFF29;
+    border: none;
+    border-radius: 8px;
+    width: 752px;
+    height: 56px;
+}
