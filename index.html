@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="/style/style.css">
     <title>Alura Dev</title>
 </head>
@@ -18,5 +19,36 @@
         </div>
        </nav>
    </header>
+   <main class="corpo-da-pagina">
+       <section class="menu-lateral">
+            <nav class="barra-menu-lateral">
+                <ul>
+                    <li><a>MENU</a></li>
+                    <li><a href="index.html"><i class="fas fa-code"></i>Editor de código</a></li>
+                    <li><a href=""><i class="fas fa-users"></i>Comunicação</a></li>
+                </ul>
+            </nav>
+       </section>
+       <section class="corpo-do-projeto">
+            <ul class="estrutura-do-projeto">
+                <li><a>SEU PROJETO</a></li>
+                <li><input type="text" class="barra-nome-projeto" placeholder="Nome do seu projeto" name="barra-nome-projeto"></li>
+                <li><input type="text" class="barra-descricao-projeto" placeholder="Descrição do seu projeto" name="barra-descricao-projeto"></li>
+            </ul>
+           <ul class="estrutura-da-selecao-linguagem">
+                <li><a>PERSONALIZAÇÃO</a></li>
+                <li>
+                    <select name="linguagem-de-programacao" id="linguagem-de-programacao">
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                    </select>
+                </li>
+                <li><input type="color" name="selecao-color-picker" id="selecao-color-picker"></li>
+           </ul>
+           <button class="botao-salvar-projeto">Salvar projeto</button>
+       </section>
+
+   </main>
 </body>
 </html>
