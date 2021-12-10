@@ -3,9 +3,18 @@
     padding: 0;
 }
 
+:root{
+    --cor-de-fundo:#051D3B;
+    --cor-da-var-entrada: #FFFFFF29;
+    --cor-do-texto: #FFFFFF;
+    --cor-do-icone-menu-lateral:#5081FB;
+
+}
+
 body{
-    background: #051D3B;
+    background: var(--cor-de-fundo);
     font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor-do-texto);
 }
 
 /* Header*/
@@ -13,7 +22,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 15px 20px;
 }
 .cabeçalho-menu .logo-alura{
     width: 145px;
@@ -21,7 +30,7 @@ body{
 
 .cabeçalho-menu .barra-de-pesquisa{
     color: gray;
-    background: #FFFFFF29;
+    background: var(--cor-da-var-entrada);
     border: none;
     border-radius: 8px;
     width: 752px;
@@ -41,7 +50,105 @@ body{
 }
 
 .cabeçalho-menu .nome-usuario{
-    color: #FFFFFF;
+    color: var(--cor-do-texto);
     padding-left: 8px;
     text-decoration: none;
+}
+
+/*Main - Laterais da página*/
+
+.lateral-da-pagina{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin-top: 15px;
+    font-family: Inter;
+}
+
+.lateral-da-pagina li{
+    padding: 10px;
+    display: table;
+}
+
+.lateral-da-pagina .menu-lateral .barra-menu-lateral li a{
+    color: var(--cor-do-texto);
+    text-decoration: none;
+}
+
+.lateral-da-pagina .menu-lateral .barra-menu-lateral li .titulo-menu-lateral{
+    font-size: 12px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+
+.lateral-da-pagina .menu-lateral .barra-menu-lateral li a .fa-code{
+   padding: 14px;
+   margin-right: 10px;
+   background: var(--cor-do-icone-menu-lateral);
+   border-radius: 16px;
+}
+
+.lateral-da-pagina .menu-lateral .barra-menu-lateral li a .fa-users{
+    padding: 14px;
+    margin-right: 10px;
+    background: var(--cor-do-icone-menu-lateral);
+    border-radius: 16px;
+}
+
+.lateral-da-pagina .corpo-do-projeto .estrutura-do-projeto li a{
+    font-size: 12px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+
+.lateral-da-pagina .corpo-do-projeto .estrutura-do-projeto li .barra-nome-projeto{
+    width: 272px;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    background: var(--cor-da-var-entrada);
+    padding-left: 10px;
+}
+
+.lateral-da-pagina .corpo-do-projeto .estrutura-do-projeto li .barra-descricao-projeto{
+    width: 272px;
+    height: 80px;
+    border: none;
+    border-radius: 8px;
+    background: var(--cor-da-var-entrada);
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.lateral-da-pagina .corpo-do-projeto .estrutura-da-selecao-linguagem li a{
+    font-size: 12px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+
+.lateral-da-pagina .corpo-do-projeto .estrutura-da-selecao-linguagem #linguagem-de-programacao{
+    width: 272px;
+    height: 56px;
+    color: gray;
+    border-radius: 8px;
+    background: var(--cor-da-var-entrada);
+    padding-left: 10px;
+}
+
+.lateral-da-pagina .corpo-do-projeto .estrutura-da-selecao-linguagem #selecao-color-picker{
+    width: 272px;
+    height: 56px;
+    border: 1px solid var(--cor-do-texto);
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: var(--cor-de-fundo);
+    padding: 2.5px;
+}
+
+.lateral-da-pagina .corpo-do-projeto .estrutura-da-selecao-linguagem .botao-salvar-projeto{
+    border: none;
+    width: 272px;
+    height: 56px;
+    background: var(--cor-do-icone-menu-lateral);
+    border-radius: 8px;
 }
