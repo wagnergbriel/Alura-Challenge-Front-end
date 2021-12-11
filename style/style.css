@@ -57,7 +57,7 @@ body{
 
 /*Main - Laterais da página*/
 
-.lateral-da-pagina{
+.corpo-da-pagina{
     display: flex;
     justify-content: space-between;
     padding: 15px 20px;
@@ -65,43 +65,43 @@ body{
     font-family: Inter;
 }
 
-.lateral-da-pagina li{
+.corpo-da-pagina li{
     padding: 10px;
     display: table;
 }
 
-.lateral-da-pagina .menu-lateral .barra-menu-lateral li a{
+.corpo-da-pagina .menu-lateral .barra-menu-lateral li a{
     color: var(--cor-do-texto);
     text-decoration: none;
 }
 
-.lateral-da-pagina .menu-lateral .barra-menu-lateral li .titulo-menu-lateral{
+.corpo-da-pagina .menu-lateral .barra-menu-lateral li .titulo-menu-lateral{
     font-size: 12px;
     letter-spacing: 0.4em;
     text-transform: uppercase;
 }
 
-.lateral-da-pagina .menu-lateral .barra-menu-lateral li a .fa-code{
+.corpo-da-pagina .menu-lateral .barra-menu-lateral li a .fa-code{
    padding: 14px;
    margin-right: 10px;
    background: var(--cor-do-icone-menu-lateral);
    border-radius: 16px;
 }
 
-.lateral-da-pagina .menu-lateral .barra-menu-lateral li a .fa-users{
+.corpo-da-pagina .menu-lateral .barra-menu-lateral li a .fa-users{
     padding: 14px;
     margin-right: 10px;
     background: var(--cor-do-icone-menu-lateral);
     border-radius: 16px;
 }
 
-.lateral-da-pagina .corpo-do-projeto .estrutura-do-projeto li a{
+.corpo-da-pagina .corpo-do-projeto .estrutura-do-projeto li a{
     font-size: 12px;
     letter-spacing: 0.4em;
     text-transform: uppercase;
 }
 
-.lateral-da-pagina .corpo-do-projeto .estrutura-do-projeto li .barra-nome-projeto{
+.corpo-da-pagina .corpo-do-projeto .estrutura-do-projeto li .barra-nome-projeto{
     width: 272px;
     height: 56px;
     border: none;
@@ -110,7 +110,7 @@ body{
     padding-left: 10px;
 }
 
-.lateral-da-pagina .corpo-do-projeto .estrutura-do-projeto li .barra-descricao-projeto{
+.corpo-da-pagina .corpo-do-projeto .estrutura-do-projeto li .barra-descricao-projeto{
     width: 272px;
     height: 80px;
     border: none;
@@ -120,13 +120,13 @@ body{
     margin-bottom: 20px;
 }
 
-.lateral-da-pagina .corpo-do-projeto .estrutura-da-selecao-linguagem li a{
+.corpo-da-pagina .corpo-do-projeto .estrutura-da-selecao-linguagem li a{
     font-size: 12px;
     letter-spacing: 0.4em;
     text-transform: uppercase;
 }
 
-.lateral-da-pagina .corpo-do-projeto .estrutura-da-selecao-linguagem #linguagem-de-programacao{
+.corpo-da-pagina .corpo-do-projeto .estrutura-da-selecao-linguagem #linguagem-de-programacao{
     width: 272px;
     height: 56px;
     color: gray;
@@ -135,7 +135,7 @@ body{
     padding-left: 10px;
 }
 
-.lateral-da-pagina .corpo-do-projeto .estrutura-da-selecao-linguagem #selecao-color-picker{
+.corpo-da-pagina .corpo-do-projeto .estrutura-da-selecao-linguagem #selecao-color-picker{
     width: 272px;
     height: 56px;
     border: 1px solid var(--cor-do-texto);
@@ -145,10 +145,27 @@ body{
     padding: 2.5px;
 }
 
-.lateral-da-pagina .corpo-do-projeto .estrutura-da-selecao-linguagem .botao-salvar-projeto{
+.corpo-da-pagina .corpo-do-projeto .estrutura-da-selecao-linguagem .botao-salvar-projeto{
     border: none;
     width: 272px;
     height: 56px;
     background: var(--cor-do-icone-menu-lateral);
     border-radius: 8px;
+}
+
+/*Main - Centro da página*/
+.corpo-da-pagina .centro-da-pagina .espaco-do-highligth{
+    background: black;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.corpo-da-pagina .centro-da-pagina .botao-highligth{
+    border: none;
+    width: 680px;
+    height: 55px;
+    border-radius: 8px;
+    margin-top: 20px;
+    background: var(--cor-do-icone-menu-lateral);
+    color: var(--cor-do-texto);
 }
