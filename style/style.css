@@ -8,6 +8,10 @@
     --cor-da-var-entrada: #FFFFFF29;
     --cor-do-texto: #FFFFFF;
     --cor-do-icone-menu-lateral:#5081FB;
+    --cor-botao-highligth:#5081FB14;
+    --cor-espaco-do-codigo:#141414;
+
+
 
 }
 
@@ -155,9 +159,45 @@ body{
 
 /*Main - Centro da página*/
 .corpo-da-pagina .centro-da-pagina .espaco-do-highligth{
-    background: black;
-    padding: 50px;
+    background: #6BD1FF;
+    padding: 35px;
     border-radius: 8px;
+}
+
+.corpo-da-pagina .centro-da-pagina .espaco-do-codigo{
+    background: var(--cor-espaco-do-codigo);
+    width: 688px;
+    height: 302px;
+}
+
+.corpo-da-pagina .centro-da-pagina .espaco-do-codigo .botao-superior{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 8px;
+    margin: 15px 0px;
+}
+
+.corpo-da-pagina .centro-da-pagina .espaco-do-codigo .botao-superior.botao-vermelho{
+    background: #FF5F56;
+    margin-left: 5px;
+}
+
+.corpo-da-pagina .centro-da-pagina .espaco-do-codigo .botao-superior.botao-amarelo{
+    background: #FFBD2E;
+}
+
+.corpo-da-pagina .centro-da-pagina .espaco-do-codigo .botao-superior.botao-verde{
+    background: #27C93F;
+
+}
+
+.corpo-da-pagina .centro-da-pagina .espaco-do-codigo .codigo-input{
+    width: 656px;
+    height: 234px;
+    font-family: 'Roboto Mono';
+    font-size: 14px;
+    line-height: 18px;
 }
 
 .corpo-da-pagina .centro-da-pagina .botao-highligth{
@@ -166,6 +206,8 @@ body{
     height: 55px;
     border-radius: 8px;
     margin-top: 20px;
-    background: var(--cor-do-icone-menu-lateral);
+    margin-left: 35px;
+    background: var(--cor-botao-highligth);
     color: var(--cor-do-texto);
+    font-family: Inter;
 }
