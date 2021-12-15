@@ -1,0 +1,10 @@
+/*Main - Menu Lateral*/
+
+.corpo-da-pagina .menu-lateral .barra-menu-lateral .fas:hover{
+    background: #5081FBA3;
+}
+
+.corpo-da-pagina .menu-lateral .barra-menu-lateral .opcao-menu-lateral:hover{
+    color: #FFFFFF;
+    opacity: 0.72;
+}

@@ -77,6 +77,7 @@ body{
 .corpo-da-pagina .menu-lateral .barra-menu-lateral li a{
     color: var(--cor-do-texto);
     text-decoration: none;
+    opacity: 0.56;
 }
 
 .corpo-da-pagina .menu-lateral .barra-menu-lateral li .titulo-menu-lateral{
@@ -85,18 +86,11 @@ body{
     text-transform: uppercase;
 }
 
-.corpo-da-pagina .menu-lateral .barra-menu-lateral li a .fa-code{
+.corpo-da-pagina .menu-lateral .barra-menu-lateral li a .fas{
    padding: 14px;
    margin-right: 10px;
-   background: var(--cor-do-icone-menu-lateral);
    border-radius: 16px;
-}
-
-.corpo-da-pagina .menu-lateral .barra-menu-lateral li a .fa-users{
-    padding: 14px;
-    margin-right: 10px;
-    background: var(--cor-do-icone-menu-lateral);
-    border-radius: 16px;
+   background: #5081FB29;
 }
 
 .corpo-da-pagina .corpo-do-projeto .estrutura-do-projeto li a{
@@ -168,6 +162,7 @@ body{
     background: var(--cor-espaco-do-codigo);
     width: 688px;
     height: 302px;
+    border-radius: 8px;
 }
 
 .corpo-da-pagina .centro-da-pagina .espaco-do-codigo .botao-superior{
@@ -195,9 +190,14 @@ body{
 .corpo-da-pagina .centro-da-pagina .espaco-do-codigo .codigo-input{
     width: 656px;
     height: 234px;
-    font-family: 'Roboto Mono';
     font-size: 14px;
     line-height: 18px;
+    white-space: pre-wrap;
+    margin: 13px 10px;
+    background: var(--cor-espaco-do-codigo);
+    color: var(--cor-do-texto);
+    border: none;
+    resize: none;
 }
 
 .corpo-da-pagina .centro-da-pagina .botao-highligth{
